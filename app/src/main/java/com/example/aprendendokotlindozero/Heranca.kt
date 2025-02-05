@@ -1,12 +1,13 @@
 package com.example.aprendendokotlindozero
 
-open class Animal{
+abstract class Animal{
 //    var cor : String ""
 //    var tamanho = ""
 //    var peso = 0.0
 
     open fun correr() = println("Correr como um ")
-    fun dormir() = println("Dormir")
+    //Você deve utilizar o dormir porque todo animal DEVE dormir
+    abstract fun dormir()
 }
 
 class Cao : Animal(){
@@ -15,6 +16,9 @@ class Cao : Animal(){
         super.correr()
         println("cão de 4 patas")
     }
+    override fun dormir() {
+        println("Dormir como um cão")
+    }
 }
 class Passaro : Animal(){
     fun voar() = println("Voar")
@@ -22,14 +26,19 @@ class Passaro : Animal(){
         super.correr()
         println("passaro de 2 perninhas")
     }
+    override fun dormir() {
+        println("Dormir como um cão")
+    }
 }
 
 fun main() {
-    val cao = Cao()
+    val animal = Animal()
+    animal.correr()
+    /*val cao = Cao()
     cao.correr()
     cao.latir()
 
     val passaro = Passaro()
     passaro.correr()
-    passaro.voar()
+    passaro.voar()*/
 }
