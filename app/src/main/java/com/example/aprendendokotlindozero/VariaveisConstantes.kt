@@ -22,7 +22,7 @@ fun main(){
 
     val numero: Int = 7
 
-    val usuario = Usuario() /* Instanciando Usuario */
+    //val usuario = Usuario() /* Instanciando Usuario */
 
     println(nomeUsuario)
 }
