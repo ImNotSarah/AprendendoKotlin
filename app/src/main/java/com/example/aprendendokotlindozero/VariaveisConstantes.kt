@@ -4,9 +4,11 @@ fun retornaNomeUsuario(){
 
 }
 
+/*
 class Usuario{
 
 }
+*/
 
 const val nomeUsuario = "Sarah" /* Variavel global */
 
