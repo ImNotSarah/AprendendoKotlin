@@ -20,5 +20,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Aprendendo Kotlin do zero"
-include(":app")
- 
+include(":passageiro")
+include(":motorista")
+include(":recursos")
