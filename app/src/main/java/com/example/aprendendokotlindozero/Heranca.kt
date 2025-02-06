@@ -1,6 +1,6 @@
 package com.example.aprendendokotlindozero
 
-abstract class Animal{
+/*abstract class Animal{
 //    var cor : String ""
 //    var tamanho = ""
 //    var peso = 0.0
@@ -29,12 +29,12 @@ class Passaro : Animal(){
     override fun dormir() {
         println("Dormir como um cão")
     }
-}
+}*/
 
 fun main() {
-    val animal = Animal()
+    /*val animal = Animal()
     animal.correr()
-    /*val cao = Cao()
+    *//*val cao = Cao()
     cao.correr()
     cao.latir()
 
